@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.converter-container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+#amountInput {
+    width: 100px;
+}
+
+.result-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.result-item {
+    flex: 1;
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+}

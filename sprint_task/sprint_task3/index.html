@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sprint Task 3 Kozhdan</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1 style="text-align: center;">Money</h1>
+        <div class="content d-flex">
+            <div>
+                <label>Введите сумму: </label><br>
+                <input type="number" id="amountInput">
+            </div>
+            <select id="currencySelector" class="ml-10 mt-10">
+                    <option value="USD">USD</option>
+                    <option value="KZT">KZT</option>
+                    <option value="EUR">EUR</option>
+                    <option value="TRY">TRY</option>
+            </select>
+            <div>
+                <label class="ml-20">KZT (tenge)</label><br>
+                <input type="text" class="ml-20" id="convertedKZT" placeholder="-" disabled>
+            </div>
+            <div>
+                <label class="ml-20">USD (dollar)</label><br>
+                <input type="text" class="ml-20" id="convertedUSD" placeholder="-" disabled>
+            </div>
+            <div>
+                <label class="ml-20">EUR (euro)</label><br>
+                <input type="text" class="ml-20" id="convertedEUR" placeholder="-" disabled>
+            </div>
+            <div>
+                <label class="ml-20">TRY (lira)</label><br>
+                <input type="text" class="ml-20" id="convertedTRY" disabled>
+            </div>
+        </div>
+
+        <script src="js/javascript.js"></script>
+    </body>
+</html>
